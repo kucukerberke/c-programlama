@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()    
+
+{ 
+    float vize, final, ortalama;
+
+    printf("Vize notunu giriniz: ");
+    scanf("%f", &vize);
+
+    printf("Final notunu giriniz: ");
+    scanf("%f", &final);
+    
+    ortalama = (vize * 0.4) + (final * 0.6);
+    printf("Ortalama: %.2f\n", ortalama);
+
+    return 0;
+
+}
+
+
